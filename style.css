@@ -51,6 +51,10 @@ body{
   height: 300px;
 }
 
+.carousel-caption{
+    padding: 100px 0px 100px 200px;
+    height: 300px;
+}
 .carousel-item img {
     position: absolute;
     top: 0;

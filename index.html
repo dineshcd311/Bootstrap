@@ -102,7 +102,6 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <img class="d-block img-fluid" src="img/uthappizza.png" alt="uthappiza">
-                            
                             <div class="carousel-caption d-none d-md-block">
                                 <h2>
                                     Uthappizza
@@ -132,7 +131,7 @@
                             </div>
                         </div>
                     </div>
-                    <ol class="carousel-indicators">
+                    <ol class="carousel-indicators col-md-10">
                             <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
                             <li data-target="#mycarousel" data-slide-to="1"></li>
                             <li data-target="#mycarousel" data-slide-to="2"></li>
@@ -344,10 +343,11 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- <script>
+    <script>
         $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();
+            // $('[data-toggle="tooltip"]').tooltip();
+            $('.carousel').carousel({interval:2000});
         })
-    </script> -->
+    </script>
 </body>
 </html>
