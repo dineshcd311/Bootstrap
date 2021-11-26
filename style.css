@@ -38,3 +38,7 @@ body{
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+
+.fa-sign-in{
+    cursor: pointer;
+}
